@@ -1,20 +1,38 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Você decide o banho do seu pet</title>
-</head>
-<body>
-    <div class="caixa-principal">
-        <h1>Você decide o banho do seu pet</h1>
-        <div class="caixa-perguntas"></div>
-        <div class="caixa-alternativas"></div>
-        <div class="caixa-resultado"></div>
-            <p class="texto-resultado"></p>
-        </div>
-    </div>
-    <script src="script.js"></script>
-</body>
-</html>
+:root {
+  --cor-fundo: #01080E;
+  --cor-principal:#00ff95;
+  --cor-secundaria:#B0E0E6;
+  --cor-destaque: #2BDEFD;
+  --cor-texto: #01080E;
+}
+body {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+ .caixa-principal{
+  background-color: var(--cor-principal);
+  width: 90%;
+  text-align: center;
+  padding: 20px;
+}
+h1{
+ color: var(--cor-destaque);
+}
+
+button {
+    background-color: var(--cor-principal);
+    color: var(--cor-destaque);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--cor-destaque);
+    color: var(--cor-secundaria);
+}
