@@ -6,54 +6,54 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Hoje é dia de levar seu pet ao petshop, você prefere ir de manhã ou a tarde?",
+        enunciado: "Hoje é dia de jogar uma pelota ?",
         alternativas: [
             {
                 texto: "manhã!",
-                afirmacao: "levou seu pet de manhã."
+                afirmacao: "pelada de manhã."
             },
             {
                 texto: "tarde!",
-                afirmacao: "levou seu pet à tarde."
+                afirmacao: "pelada à tarde."
             }
         ]
     },
     {
-        enunciado: "Qual banho você prefere? banho e tosa tradicional ou apenas higiênico?",
+        enunciado: "Qual local você prefere? coberto ou descoberto"
         alternativas: [
             {
-                texto: "tradicional",
-                afirmacao: "ele recebeu uma tosa tradicional."
+                texto: "coberto",
+                afirmacao: "eles jogaram no coberto."
             },
             {
-                texto: "apenas higiênico",
-                afirmacao: "ele recebeu uma tosa higiênica."
+                texto: "descoberto",
+                afirmacao: "eles jogaram no descoberto."
             }
         ]
     },
     {
-        enunciado: "Deseja algum acessório?",
+        enunciado: "você trouxe chuteira?",
         alternativas: [
             {
-                texto: "sim, obrigado!",
-                afirmacao: "recebeu lacinhos."
+                texto: "sim, eu trouxe!",
+                afirmacao: "jogou com a propria chuteira."
             },
             {
-                texto: "não, obrigado!",
-                afirmacao: "voltou sem nenhum acessório."
+                texto: "não, emprestei a chuteira do nareba!",
+                afirmacao: "jogou com o pisante do nareba."
             }
         ]
     },
     {
-        enunciado: "Ao final do procedimento podemos tirar foto?",
+        enunciado: "Ao final do futeba podemos tirar foto?",
         alternativas: [
             {
                 texto: "simm!",
-                afirmacao: "tirou várias fotos."
+                afirmacao: "tiramos várias fotos."
             },
             {
                 texto: "não",
-                afirmacao: "foi embora sem tirar nenhuma foto."
+                afirmacao: "fomos embora sem tirar nenhuma foto."
             }
         ]    
     }
